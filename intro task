@@ -1,0 +1,244 @@
+#create identifier with string
+#name(variable name),str(inside quotes)
+name="kavi"
+print(name)
+
+#create identifier with float
+#decimal num is called float
+num=24.6
+print(num)
+
+#create identifier with integer
+#whole num is called integer
+num=19
+print(num)
+
+#identifier naming rules
+#not start with num
+#space and special symbols not allowed except_
+#python keywords cannot be used
+studname="kavi"
+mrk1=80
+_totalmrks=80
+print(studname)
+print(mrk1)
+print(_totalmrks)
+
+#create int to float
+#float() convert int into decimal value
+a=24
+b=float(a)
+print(b)
+
+#create float to str
+#str() convert value into  str
+a=24.6
+b=str(a)
+print(b)
+
+#create str to int
+#int()convert num str into int
+a="24"
+b=int(a)
+print(b)
+
+#create float to int
+#int() removes decimal part
+a=24.4
+b=int(a)
+print(b)
+
+#arithmetic operator
+#add
+#sub
+#multiple
+#division
+#floor division
+#modulus
+#exponent
+a=2
+b=4
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+
+#comparison operator
+#comparison operators return true or false
+a=2
+b=4
+print(a==b)
+print(a!=b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+
+#logical operator
+#and-both should be true
+#or-any one true
+#not-
+a=2
+b=4
+print(a and b)
+print(a or b)
+print(not a)
+
+#add two string
+#string addition using->(a+b)
+a="hlo"
+b="kavii"
+print(a+b)
+
+#add two int
+#int addition (a+b)
+a=2
+b=4
+print(a+b)
+
+#add int and str
+#int and str cannot be adde directly
+#convert int into str using str()
+a=10
+b="24"
+print(str(a)+b)
+
+#multiply str and int
+#str repeats based on integer value 
+a="kavi"
+b=3
+print(a*b)
+
+#print() is used to diplay output
+#text inside quotes is called str
+print("hello world!")
+
+
+print("welcome to the world of python")
+
+
+print("this is an 'IMPORTANT' news")
+
+
+print("good book's")
+
+#deci to hex conversion and binary conversion
+#hex()converts decimal to binary
+#bin()converts decimal to binary
+print(hex(10))
+print(bin(10))
+
+#mathematical operators
+a=2
+b=4
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+
+#separate the given number and perform operation
+#//10 gets first digit
+#%10 gets last digit
+num=24
+a=num// 10
+b=num% 10
+print("first digit:",a)
+print("second digit:",b)
+print("addition:",a+b)
+print("multiplication:",a*b)
+
+#swap two numbers
+#values exchange places
+a=int(input("enter first num:"))
+b=int(input("enter second num:"))
+print("a=",a)
+print("b=",b)
+
+#Area and Perimeter
+#Square:
+side = 4
+area = side * side
+perimeter = 4 * side
+print(area)
+print(perimeter)
+
+#Rectangle
+l = 5
+b = 3
+area = l * b
+perimeter = 2 * (l + b)
+print(area)
+print(perimeter)
+
+#Circle
+r = 7
+area = 3.14 * r * r
+circumference = 2 * 3.14 * r
+print(area)
+print(circumference)
+
+#Triangle
+base = 4
+height = 6
+area = 0.5 * base * height
+print(area)
+    
+#Find the Output
+print("Were" + "wolf")
+print("Door" + "man")
+print("4" + "chan")
+print(str(4) + "chan")
+print(4 * "test")
+
+#Single Line Variable Assignment
+#Multiple variables assigned in one line.
+a, b, c = 10, 20, 30
+print(a)
+print(b)
+print(c)
+
+#Age to 100 Year prgm
+#input() gets user value
+#int()converts str to int
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+year = 100 - age
+print(name, "will turn 100 after", year, "years")
+
+
+#Float Division but Integer Quotient
+#// removes decimal part.
+a = 10
+b = 3
+print(a // b)
+
+#Find Data Type
+#type()-datatype.
+#input()-always gives string.
+a = input("kavii")
+print(type(a))
+
+#Check Conditions
+#and-Both true
+#or-Any one true
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+print(a > b and a < c)
+print(a >= b or a <= c)
+print(a == b or b > c)
+print(b > 15 and c < 10 or a > 50)
+
+#Largest and Smallest Number
+#max()-biggest value.
+#min()-smallest value.
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+print("Largest:", max(a, b, c))
+print("Smallest:", min(a, b, c))
