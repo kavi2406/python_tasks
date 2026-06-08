@@ -1,0 +1,116 @@
+#create identifier with string
+#name(variable name),str(inside quotes)
+name="kavi"
+print(name)
+
+#create identifier with float
+#decimal num is called float
+num=24.6
+print(num)
+
+#create identifier with integer
+#whole num is called integer
+num=19
+print(num)
+
+#identifier naming rules
+#not start with num
+#space and special symbols not allowed except_
+#python keywords cannot be used
+studname="kavi"
+mrk1=80
+_totalmrks=80
+print(studname)
+print(mrk1)
+print(_totalmrks)
+
+#create int to float
+#float() convert int into decimal value
+a=24
+b=float(a)
+print(b)
+
+#create float to str
+#str() convert value into  str
+a=24.6
+b=str(a)
+print(b)
+
+#create str to int
+#int()convert num str into int
+a="24"
+b=int(a)
+print(b)
+
+#create float to int
+#int() removes decimal part
+a=24.4
+b=int(a)
+print(b)
+
+#arithmetic operator
+#add
+#sub
+#multiple
+#division
+#floor division
+#modulus
+#exponent
+a=2
+b=4
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+
+#comparison operator
+#comparison operators return true or false
+a=2
+b=4
+print(a==b)
+print(a!=b)
+print(a<b)
+print(a>b)
+print(a<=b)
+print(a>=b)
+
+#logical operator
+#and-both should be true
+#or-any one true
+#not-
+a=2
+b=4
+print(a and b)
+print(a or b)
+print(not a)
+
+#add two string
+#string addition using->(a+b)
+a="hlo"
+b="kavii"
+print(a+b)
+
+#add two int
+#int addition (a+b)
+a=2
+b=4
+print(a+b)
+
+#add int and str
+#int and str cannot be adde directly
+#convert int into str using str()
+a=10
+b="24"
+print(str(a)+b)
+
+#multiply str and int
+#str repeats based on integer value 
+a="kavi"
+b=3
+print(a*b)
+
+
+
