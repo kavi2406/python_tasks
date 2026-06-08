@@ -1,0 +1,53 @@
+#to create a tuple with different data types.
+#tuple can store different data types together.
+#24-int,kavii-str,2.4-float,True-boolean
+t=(24,"kavii",2.4,True)
+print(t)
+
+#to create a tuple of numbers and print one item
+#index starts from 0
+#t[2] means 3rd ele
+t=(1,2,3,4)
+print(t[2])
+
+#to unpack a tuple into several variables
+#tuple value are stored into variable one by one.
+t=(100,200,300)
+a,b,c=t
+print(a)
+print(b)
+print(c)
+
+#to add an item to a tuple.
+#tuple cannot be changed directly
+#create a new tuple using +
+
+t=(1,2,3)
+t=t+(4,)
+print(t)
+
+# to find the index of an item in a tuple.
+#index() gives the position of the value.
+#30 is index 2.
+t=(10,20,30,40)
+print(t.index(30))
+
+#to find the length of a tuple
+#len() counts total ele in tuple
+t=(1,2,3,4,5)
+print(len(t))
+
+#to find repeated items in a tuple
+#count()checks how many times item repeats
+#if count is more than 1,it is repeated 
+t=(1,2,3,2,4,1,5)
+for i in t:
+    if t.count(i)>1:
+        print(i)
+
+#to calculate the product, multiplying all the numbers in a given tuple. 
+t=(4, 3, 2, 2, -1, 18)
+a=1
+for i in t:
+    a=a*i
+    print(a)
